@@ -53,6 +53,7 @@
   width: 100%;
   position: relative;
   background-color: #2a3d59;
+  margin-top: -1px;
 }
 
 .map_inner {
@@ -203,6 +204,7 @@
 
 .walk {
   position: relative;
+  margin-top: -1px;
 }
 
 .walk_text {
@@ -212,9 +214,13 @@
   bottom: 8.08%;
 }
 
+.view-1 {
+  margin-top: -1px;
+}
+
 .luxury {
   padding: 212px 0 142px;
-  background-image: url(../images/luxury_bg.svg);
+  background-image: url(../images/luxury_bg.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
