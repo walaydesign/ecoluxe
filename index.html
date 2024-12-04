@@ -442,9 +442,9 @@ textarea.w-input:focus {
 <script>
   AOS.init({startEvent: 'load'});
   window.addEventListener('load', AOS.refresh);
-  $(window).on("resize", function() {
-    mapResize();
-  })
+  // $(window).on("resize", function() {
+  //   mapResize();
+  // })
   mapResize();
   function mapResize() {
     let mapWidth = $(".map_pic").width();
