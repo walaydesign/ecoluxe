@@ -1,0 +1,276 @@
+.swiper-button-next, .swiper-button-prev {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .swiper-button-next, .swiper-button-prev {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.kv {
+  position: relative;
+}
+
+.kv_logo {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 37.76%;
+}
+
+.kv_logo > img {
+  width: 32.52%;
+  display: block;
+  margin: 0 auto;
+}
+
+.kv_info {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 12.1%;
+}
+
+.kv_info > img {
+  width: 53.02%;
+  display: block;
+  margin: 0 auto;
+}
+
+.map {
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+  background-color: #2a3d59;
+}
+
+.map_inner {
+  overflow-x: scroll;
+}
+
+.map_inner > img {
+  width: 2000px;
+  max-width: inherit;
+}
+
+.map_inner::-webkit-scrollbar {
+  display: none;
+}
+
+.map_gradient-bottom {
+  position: absolute;
+  width: 100%;
+  height: 49%;
+  background: -webkit-gradient(linear, left bottom, left top, from(#2a6496), color-stop(12%, #2a6496), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(to top, #2a6496 0%, #2a6496 12%, rgba(255, 255, 255, 0));
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.map_finger {
+  position: absolute;
+  width: 7.63%;
+  top: 4.28%;
+  right: 5.37%;
+}
+
+.map_text {
+  position: absolute;
+  width: 66.27%;
+  right: 7.59%;
+  bottom: 7%;
+  z-index: 2;
+}
+
+.life {
+  padding-top: 123px;
+  width: 100%;
+  background-image: url(../images/life_bg.png);
+  background-size: 54.98%;
+  background-position: right top;
+  background-repeat: no-repeat;
+  padding-bottom: 47px;
+}
+
+.life_text {
+  display: block;
+  width: 41.73%;
+  margin: 0 auto 123px;
+}
+
+.life .swiper-button-next {
+  right: 16%;
+}
+
+.life .swiper-button-prev {
+  left: 16%;
+}
+
+@media screen and (max-width: 900px) {
+  .life {
+    padding-top: 13.65vw;
+    padding-bottom: 5.25vw;
+  }
+  .life_text {
+    margin-bottom: 13.65vw;
+  }
+  .life .swiper-button-next {
+    right: 17%;
+  }
+  .life .swiper-button-prev {
+    left: 17%;
+  }
+}
+
+.speed {
+  padding-top: 142px;
+  padding-bottom: 142px;
+  background-image: url(../images/speed_bg.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.speed_title {
+  width: 43.74%;
+  display: block;
+  margin: 0 auto 165px;
+}
+
+.speed_swiper-wrap {
+  padding: 0 10%;
+  margin-bottom: 90px;
+}
+
+.speed_text {
+  width: 73.31%;
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 900px) {
+  .speed {
+    padding-top: 15.75vw;
+    padding-bottom: 15.75vw;
+  }
+  .speed_swiper-wrap {
+    margin-bottom: 9.97vw;
+  }
+}
+
+.urban {
+  position: relative;
+}
+
+.urban_title {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 13.16%;
+}
+
+.urban_title > img {
+  width: 56.1%;
+  display: block;
+  margin: 0 auto;
+}
+
+.urban_num {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 16.6%;
+}
+
+.urban_num > img {
+  width: 80.64%;
+  display: block;
+  margin: 0 auto;
+}
+
+.walk {
+  position: relative;
+}
+
+.walk_text {
+  width: 52.09%;
+  position: absolute;
+  right: 8.49%;
+  bottom: 8.08%;
+}
+
+.luxury {
+  padding: 212px 0 142px;
+  background-image: url(../images/luxury_bg.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.luxury_pic {
+  width: 12.34%;
+  display: block;
+  margin: 0 auto 59px;
+}
+
+.luxury_text {
+  width: 66.59%;
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 900px) {
+  .luxury {
+    padding: 23.56vw 0 15.78vw;
+  }
+  .luxury_pic {
+    margin-bottom: 6.56vw;
+  }
+}
+
+.brand {
+  padding-top: 164px;
+  padding-bottom: 433px;
+  background-image: url(../images/brand_bg.webp);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.brand_title {
+  width: 66.47%;
+  display: block;
+  margin: 0 auto 130px;
+}
+
+.brand_logo {
+  width: 55.72%;
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 900px) {
+  .brand {
+    padding-top: 18.22vw;
+    padding-bottom: 48.11vw;
+  }
+  .brand_title {
+    margin-bottom: 14.44vw;
+  }
+}
+/*# sourceMappingURL=ecoluxe.css.map */
