@@ -243,3 +243,43 @@
         }
     }
 }
+
+.footer {
+    padding-top: 120px;
+    padding-bottom: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    &_logo {
+        width: 23%;
+    }
+    &_right {
+        padding-left: 13%;
+        width: 40%;
+    }
+    &_text {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    &_contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        >a {
+            width: 18%;
+            margin: 0 3%;
+            display: block;
+            >img {
+                width: 100%;
+            }
+        }
+    }
+    @media screen and (max-width: 900px) {
+        padding-top: 13.33vw;
+        padding-bottom: 18.89vw;
+        &_text {
+            margin-bottom: 2.78vw;
+        }
+    }
+}
